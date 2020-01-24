@@ -58,6 +58,8 @@ app.post("/register", function(req, res){
 		if (err) {
 			return res.redirect("back");
 		} else {
+			user.carNumber = req.body.carNumber;
+			user.save();
 			passport.authenticate("local")(req, res, function(){
 				res.redirect("/profile");
 			});

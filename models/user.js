@@ -5,10 +5,10 @@ const userSchema = new mongoose.Schema({
   username: String,
   password: String,
   carNumber: String,
-  family: [
-    {
-      name: String
-    }
+  logs: [
+    // {
+    //   entryTime: 
+    // }
   ]
 });
 

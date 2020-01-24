@@ -1,6 +1,11 @@
 body {
-  text-align: center;
+	text-align: center;
+	background-image: url('https://images.unsplash.com/photo-1532217635-b45271b1aab6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
 }
+
 .page-footer {
  position: fixed; 
   left: 0;
@@ -10,25 +15,13 @@ body {
   color: white;
   text-align: center;
 }
-#input{
-	margin: 0 auto;
-	background-color: gray;
-	width:390px;
-	border:2px solid gray;
-	padding: 0px 20px 40px 20px;
-	box-shadow: 10px 10px 5px #aaaaaa;
+
+.thumbnail {
+	margin: auto;
+	width: 30%;
 }
-#inputEmail{
-	margin-bottom: 10px;
-}
-.card{
-	margin:0 auto;
-	margin-top: 7.5%;
-	margin-right: 8%;
-	box-shadow: 5px 5px 2px;
-}
-.card-body{
-	background-color: #f2f2f2;
-	padding: 0px 20px 40px 20px;
-	width: 100px;
+
+#profile {
+	margin: auto;
+	width: 80vw;
 }
